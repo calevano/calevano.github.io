@@ -1,0 +1,51 @@
+h2{
+    font-family: 'Lilita One';
+    color: #FFFFFF;
+    font-size: 5em;
+}
+img.img-profile{
+    width: 50%;
+    float: right;
+}
+.p-10{
+    padding: 10px;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.class-jumbotron{
+    margin-bottom:0px;
+    background-color:#4E342E;
+}
+@media screen and (max-width: 768px) {
+    img.img-profile{
+        /*width: 100%;*/
+        float: initial;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 4.5em;
+    }
+    h2 small{
+        font-size: 50%;
+    }
+    .skill img{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    img.img-profile{
+        width: 100%;
+        float: initial;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 4em;
+    }
+    h2 small{
+        font-size: 50%;
+    }
+    .skill img{
+        padding: 10px;
+    }
+}
